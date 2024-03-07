@@ -419,11 +419,11 @@ iframe {
   width: auto;
   margin-left: 8px;
   padding-top: 6px;
-  color:  rgb(33,11,11);
 }
 .mail p{
   color:  rgb(33,11,11);
   margin: 0px;
+  text-decoration: none;
 }
 .number{
   width: auto;
