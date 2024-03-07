@@ -419,15 +419,18 @@ iframe {
   width: auto;
   margin-left: 8px;
   padding-top: 6px;
+  color:  rgb(33,11,11);;
 }
 .number{
   width: auto;
   margin-left: 8px;
   padding-top: 6px;
+  color: rgb(33,11,11);
 }
 .contact_loc{
   width: 35px;
   width: 35px;
+  color: rgb(33,11,11);
 }
 .contact_loc img{
   width: 35px;
