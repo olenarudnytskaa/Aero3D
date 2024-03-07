@@ -419,13 +419,22 @@ iframe {
   width: auto;
   margin-left: 8px;
   padding-top: 6px;
-  color:  rgb(33,11,11);;
+  color:  rgb(33,11,11);
+}
+.mail p{
+  color:  rgb(33,11,11);
+  margin: 0px;
 }
 .number{
   width: auto;
   margin-left: 8px;
   padding-top: 6px;
+  
+}
+.number p{
   color: rgb(33,11,11);
+  text-decoration: none;
+  margin: 0px;
 }
 .contact_loc{
   width: 35px;
@@ -440,6 +449,10 @@ iframe {
   width: auto;
   margin-left: 8px;
   padding-top: 6px;
+}
+.loc p{
+  margin: 0px;
+  color: rgb(33,11,11) ;
 }
 .footer {
   width: 100%;
