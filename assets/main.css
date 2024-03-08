@@ -41,6 +41,7 @@
 
 .contacts{
   width: 100%;
+ 
 }
 .container {
   width: 100%;
@@ -195,21 +196,21 @@
 .hero__container-en{
   width: 80%;
   justify-content: center;
-  padding-top: 8%;
+  padding-top: 4%;
   margin: auto;
   display: none;
 }
 .hero__container-de{
   width: 80%;
   justify-content: center;
-  padding-top: 8%;
+  padding-top: 4%;
   margin: auto;
   display: none;
 }
 .hero__container-it{
   width: 80%;
   justify-content: center;
-  padding-top: 8%;
+  padding-top: 4%;
   margin: auto;
 }
 .hero__txt {
@@ -468,6 +469,7 @@ iframe {
   display: flex;
   justify-content: center;
   align-content: center;
+  margin-top: 8%;
 }
 .rigths {
   color: #ffffff;
@@ -517,10 +519,10 @@ iframe {
     width: 25px;
     height: 25px;
   }
-  .socials-icon{
+  /* .socials-icon{
     width: 30px;
     height: 30px;
-  }
+  } */
   .item-one p {
     font-size: 17px;
   }
@@ -555,10 +557,10 @@ iframe {
   }
 }
 @media (min-width: 359px) and (max-width: 430px){
-  .socials-icon{
+  /* .socials-icon{
     width: 30px;
     height: 30px;
-  }
+  } */
   .contacts-header{
     padding-top: 0px;
   }
@@ -617,10 +619,10 @@ margin-left: 0px;
     }
 }
 @media (min-width: 430px) and (max-width: 769px) {
-  .socials-icon{
+  /* .socials-icon{
     width: 30px;
     height: 30px;
-  }
+  } */
   .contacts-header{
     padding-top: 0px;
   }
