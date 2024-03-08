@@ -65,3 +65,23 @@ deutsch.forEach(deutsch => {
 
 });
 })
+
+const items = document.querySelectorAll(".nav__item");
+
+items.forEach(item => {
+    item.addEventListener("click", e => {
+        e.preventDefault(); 
+        const hero = document.querySelector('.hero__txt');
+        hero.scrollIntoView({ behavior: "smooth" });
+    });
+});
+
+const navContact = document.querySelectorAll(".nav__contact");
+
+navContact.forEach(con => {
+    con.addEventListener("click", e => {
+        e.preventDefault(); 
+        const contact = document.querySelector('.contacts');
+        contact.scrollIntoView({ behavior: "smooth" });
+    });
+});

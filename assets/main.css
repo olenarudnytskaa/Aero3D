@@ -95,6 +95,12 @@
   text-decoration: none;
   text-align: center;
 }
+.nav__contact {
+  margin-left: 25px;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+}
 .nav__item:hover {
   text-decoration: underline;
   color: #5377A0;
@@ -261,6 +267,7 @@
   color: #5377A0;
   font-weight: 700;
   text-align: center;
+  width: 96%;
 }
 .section-title{
   margin-bottom: 3%;
@@ -436,6 +443,7 @@ iframe {
   text-decoration: none;
   margin: 0px;
 }
+
 .contact_loc{
   width: 35px;
   width: 35px;
@@ -475,7 +483,7 @@ iframe {
 }
 .item-three{
   display: flex;
-  margin-bottom: 16%;
+  margin-bottom: 10%;
 }
 /* Adaptive */
 @media (min-width: 279px) and (max-width: 359px){
@@ -673,9 +681,7 @@ margin-left: 0px;
   .contacts-list{
   margin-top: 0px;
   }
-  /* .section-title p{
-    font-size: 35px;
-  } */
+ 
   .contacts-item{
     font-size: 22px;
   }
