@@ -99,6 +99,12 @@
   text-decoration: none;
   text-align: center;
 }
+.nav__about {
+  margin-left: 25px;
+  width: 100%;
+  text-decoration: none;
+  text-align: center;
+}
 .nav__contact {
   margin-left: 25px;
   width: 100%;
@@ -106,6 +112,14 @@
   text-align: center;
 }
 .nav__item:hover {
+  text-decoration: underline;
+  color: #5377A0;
+}
+.nav__about:hover {
+  text-decoration: underline;
+  color: #5377A0;
+}
+.nav__contact:hover {
   text-decoration: underline;
   color: #5377A0;
 }
@@ -472,7 +486,7 @@ iframe {
   display: flex;
   justify-content: center;
   align-content: center;
-  margin-top: 8%;
+  margin-top: 5%;
 }
 .rigths {
   color: #ffffff;

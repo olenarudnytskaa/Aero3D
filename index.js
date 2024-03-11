@@ -67,21 +67,30 @@ deutsch.forEach(deutsch => {
 })
 
 const items = document.querySelectorAll(".nav__item");
-
 items.forEach(item => {
     item.addEventListener("click", e => {
         e.preventDefault(); 
-        const hero = document.querySelector('.hero__txt');
+        const hero = document.querySelector('.main');
         hero.scrollIntoView({ behavior: "smooth" });
     });
 });
 
-const navContact = document.querySelectorAll(".nav__contact");
 
+
+const navContact = document.querySelectorAll(".nav__contact");
 navContact.forEach(con => {
     con.addEventListener("click", e => {
         e.preventDefault(); 
         const contact = document.querySelector('.contacts');
         contact.scrollIntoView({ behavior: "smooth" });
+    });
+});
+
+const abouts = document.querySelectorAll(".nav__about");
+abouts.forEach(about => {
+    about.addEventListener("click", e => {
+        e.preventDefault(); 
+        const heroAb = document.querySelector('.main');
+        heroAb.scrollIntoView({ behavior: "smooth" });
     });
 });

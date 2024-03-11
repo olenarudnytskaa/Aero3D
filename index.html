@@ -6,20 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="normalize.css"> 
     <link rel="stylesheet" href="assets/main.css">
-    <!-- <style>
-        @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap');
-        </style>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Ubuntu+Condensed&display=swap');
-            </style> -->
-            <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Cabin+Condensed:wght@400;500;600;700&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
     <title>Aero3D</title>
+    <link rel="icon" href="./assets/img/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="./assets/img/favicon.ico" type="image/x-icon">
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-DSKN5JCG4X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-969XYCQSEK');
+</script>
 </head>
 
 <body>
@@ -37,7 +42,7 @@
                     <!-- IT -->
                     <div id="italy">
                         <div class="nav__list">
-                            <div class="nav__item"><a href="" class="nav__link_it" >Chi siamo</a></div>
+                            <div class="nav__about"><a href="" class="nav__link_it" >Chi siamo</a></div>
                             <div class="nav__item"><a href="" class="nav__link_it" >Cosa facciamo</a></div>
                             <div class="nav__contact"><a href="" class="nav__link_it" >Contatti</a></div>
                         </div>
@@ -45,15 +50,15 @@
                     <!-- DU -->
                    <div id="deutsch">
                         <div class="nav__list">
-                            <li class="nav__item"><a href="" class="nav__link_de" >Über uns</a></li>
-                            <li class="nav__item"><a href="" class="nav__link_de" >Was wir machen</a></li>
-                            <li class="nav__contact"><a href="" class="nav__link_de" >Kontakten</a></li>
+                            <div class="nav__about"><a href="" class="nav__link_de" >Über uns</a></div>
+                            <div class="nav__item"><a href="" class="nav__link_de" >Was wir machen</a></div>
+                            <div class="nav__contact"><a href="" class="nav__link_de" >Kontakten</a></div>
                         </div> 
                      </div> 
                       <!-- EN -->
                     <div id="english">
                         <div class="nav__list">
-                            <div class="nav__item"><a href="" class="nav__link_en">About us</a></div>
+                            <div class="nav__about"><a href="" class="nav__link_en">About us</a></div>
                             <div class="nav__item"><a href="" class="nav__link_en" >What we do</a></div>
                             <div class="nav__contact"><a href="" class="nav__link_en" >Contacts</a></div>
                         </div>
@@ -66,6 +71,7 @@
                         </div>
                     </div>
                 </header>
+                <div class = "main">
                 <div class="hero__container-it">
                     <!-- IT -->
                     <div id="italy">
@@ -201,7 +207,7 @@
                 </div> -->
 
             </section>
-    </div>      
+    </div>      </div>
             <!-- contacts section -->
             <section class=" contacts">
                 <div class="contacts-container">
@@ -241,15 +247,21 @@
                                <div class="number"><p>+41 77 22 7 22 10</p></div></div>
                            
                             <div class="contacts-item"><div class="contact_mail"><img src="./assets/img/lets-icons_e-maill.png" alt=""></div> 
-                                <div class="mail"><p>info.aero3d@gmail.com</p></div></div>
+                                <div class="mail"><p>filmaero3d@gmail.com</p></div></div>
                            
                             <div class="contacts-item">
-                                <div class="contact_loc"><img src="./assets/img/location-radius-outline.png" alt=""></div> 
-                               <div class="loc"><p>Lugano Ticine</p></div></div></li>
+                                <div class="contact_loc"><img src="./assets/img/location-radius-outline.png" alt="">
+                                </div> 
+                                <div class="loc"><div id="italy"><p>Lugano Ticino</p></div>
+                         
+                                <div id="english"><p>Lugano Ticino</p></div>
+                             
+                                <div id="deutsch"><p>Lugano Tessin</p></div></div> 
+                    </div></div>
                         </div>
-                    </div>
+                    <!-- </div> -->
 
-                <!-- </div> -->
+              
                 <footer class="footer">
                     <div id="italy"> <div class="rigths">Ⓒ Tutti i diritti riservati</div></div>
                     <div id="english"> <div class="rigths">Ⓒ All rights reserved</div></div>
@@ -259,6 +271,7 @@
             </section>
         </div></div>
     </div>
+
     <script src="index.js"></script>
 </body>
 
