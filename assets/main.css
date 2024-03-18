@@ -99,7 +99,7 @@
   text-decoration: none;
   text-align: center;
 }
-.nav__about {
+.nav__about{
   margin-left: 25px;
   width: 100%;
   text-decoration: none;
@@ -266,6 +266,17 @@
   width: 70%;
   margin-left: 8%;
 }
+
+.item-four p{
+  font-family: 'Cabin';
+  font-style: normal;
+  font-weight: 400;
+  line-height: 100%;
+  font-size: 24px;
+  color: #444444;
+  width: 70%;
+  margin-left: 8%;
+}
 .item-one p{
   font-family: 'Cabin';
   font-style: normal;
@@ -315,14 +326,23 @@ width: 40px;
   flex-direction: column;
   width: 100%;
 }
-.drone img{
-  height: 12%;
-  width: 100%;
-}
 .drone{
   height: 12%;
   width: 20%;
 }
+.drone img{
+  height: 12%;
+  width: 100%;
+}
+.camera{
+  height: 12%;
+  width: 20%;
+}
+.camera img{
+  height: 11%;
+  width: 100%;
+}
+
 .tour-features{
   margin-left: auto;
 }
@@ -504,6 +524,10 @@ iframe {
   display: flex;
   margin-bottom: 10%;
 }
+.item-four{
+  display: flex;
+  margin-bottom: 10%;
+}
 /* Adaptive */
 @media (min-width: 279px) and (max-width: 359px){
   .socials-icon{
@@ -546,13 +570,16 @@ iframe {
   .item-three p {
     font-size: 17px;
   }
+  .item-four p {
+    font-size: 17px;
+  }
   .lang-item{
     font-size: 14px;
   }
   .item-one p{
     margin: auto;
   }
-  .item-three p{
+  .item-four p{
     margin: auto;
   }
   .contacts-header h2{
@@ -614,7 +641,10 @@ iframe {
   .item-three{
     margin-left: auto;
   }
-  .item-three p{
+  .item-four{
+    margin-left: auto;
+  }
+  .item-four p{
     font-size: 18px;
     margin: 0px 0px  0px 8%;
   }
