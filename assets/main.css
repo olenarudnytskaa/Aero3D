@@ -28,7 +28,68 @@
 }
 
 
+.modal {
+  display: none;
+  position: fixed;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  width: 100%;
+  
+}
+.modal-content {
+  background-color: white;
+  padding: 10px;
+  text-align: center;
+  color: #444444 ;
+  border: 1px solid rgb(243, 202, 202);
+  font-size: 18px;
+  margin: auto;
+  width: 100%;
+  
+}
+.content{
+  width: 90%; 
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.question{
+  width: auto;
+}
+.question p{
+  margin: 0px;
+}
+.cross{
+  width: auto;
+}
+.link{
+  width: auto;
+}
+.yes{
+  width: 170px;
+}
+.modal-content a{
+  margin-left: 8px;
+  color: #444444;
 
+}
+.close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+}
+button{
+  width: 150px;
+  color: #444444;
+  border-color: rgb(243, 202, 202);
+  border-radius: 8px;
+  background-color: rgb(243, 202, 202);
+  padding: 0px;
+}
 
 .wrapper {
   width: 100vw;
@@ -306,7 +367,7 @@
   margin-left: 10%;
 }
 .instagram {
-width: 40px;
+width: auto;
 }
 .instagram a{
   width: 100px;
@@ -314,8 +375,8 @@ width: 40px;
   height: 100px;
 }
 .socials-icon {
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
  margin-left: auto;
 }
 .socials__link:hover  {
@@ -534,8 +595,26 @@ iframe {
     width: 25px;
     height: 25px;
   }
+  .question p {
+    font-size: 15px;
+  }
+  .content{
+    flex-direction: column;
+    align-items: center;
+  }
+  .link{
+    width: auto;
+    margin-top: 8px;
+    font-size: 15px;
+  }
+  button{
+    font-size: 15px;
+  }
   .contacts-header{
     padding-top: 0px;
+  }
+  .yes{
+    margin-top: 4px;
   }
   .nav__list{
     display: none;
@@ -560,15 +639,13 @@ iframe {
     width: 25px;
     height: 25px;
   }
-  /* .socials-icon{
-    width: 30px;
-    height: 30px;
-  } */
+
   .item-one p {
     font-size: 17px;
   }
   .item-three p {
     font-size: 17px;
+    margin: auto;
   }
   .item-four p {
     font-size: 17px;
@@ -605,6 +682,27 @@ iframe {
     width: 30px;
     height: 30px;
   } */
+.question p {
+  font-size: 15px;
+}
+.content{
+  flex-direction: column;
+  align-items: center;
+}
+button{
+  font-size: 15px;
+}
+.link{
+  width: auto;
+  margin-top: 4px;
+  font-size: 15px;
+}
+.yes{
+  margin-top: 4px;
+}
+.item-three p{
+  margin: 0px 0px 0px 8%;
+}
   .contacts-header{
     padding-top: 0px;
   }
@@ -640,6 +738,9 @@ iframe {
   }
   .item-three{
     margin-left: auto;
+  }
+  .item-three p {
+    font-size: 18px;
   }
   .item-four{
     margin-left: auto;
