@@ -291,7 +291,7 @@ button{
 }
 .hero__txt {
   display: flex;
-  margin-bottom: 8%;
+  /* margin-bottom: 4%; */
 }
 .item-text{
   width:75%; 
@@ -360,6 +360,16 @@ button{
 .section-title{
   margin-bottom: 3%;
   width: 100%;
+}
+.paragraph{
+  width: 100%;
+  font-family: 'Ubuntu';
+  font-size: 26px;
+  margin-bottom: 8%;
+  color: #5377A0;
+  /* border: 1px solid #5377A0; */
+  padding: 10px;
+  /* border-radius: 10px; */
 }
 .socials {
   margin-left: 10%;
