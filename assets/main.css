@@ -630,6 +630,10 @@ iframe {
     font-size: 15px;
     width: fit-content;
   }
+  .paragraph-two{
+    font-size: 15px;
+    width: fit-content;
+  }
   .socials-icon{
     width: 25px;
     height: 25px;
@@ -718,7 +722,11 @@ iframe {
 }
 @media (min-width: 359px) and (max-width: 430px){
   .paragraph{
-    font-size: 17px;
+    font-size: 15px;
+    width: fit-content;
+  }
+.paragraph-two{
+    font-size: 15px;
     width: fit-content;
   }
 .question p {
@@ -807,7 +815,11 @@ margin-left: 0px;
 }
 @media (min-width: 430px) and (max-width: 769px) {
   .paragraph{
-    font-size: 17px;
+    font-size: 15px;
+    width: fit-content;
+  }
+  .paragraph-two{
+    font-size: 15px;
     width: fit-content;
   }
   .contacts-header{
@@ -857,6 +869,10 @@ margin-left: 0px;
 @media (min-width: 765px) and (max-width: 1081px) {
   .nav__list{
     display: flex;
+  }
+  .paragraph-two{
+    font-size: 15px;
+    width: fit-content;
   }
   .nav__link_it{
     font-size: 22px;
