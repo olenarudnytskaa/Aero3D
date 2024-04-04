@@ -628,6 +628,10 @@ iframe {
     font-size: 15px;
     width: fit-content;
   }
+  .lang-line{
+    margin-left: 3px;
+    margin-right: 3px;
+  }
   .paragraph-two{
     font-size: 15px;
     width: fit-content;
@@ -723,6 +727,10 @@ iframe {
     font-size: 15px;
     width: fit-content;
   }
+  .lang-line{
+    margin-left: 3px;
+    margin-right: 3px;
+  }
 .paragraph-two{
     font-size: 15px;
     width: fit-content;
@@ -816,6 +824,10 @@ margin-left: 0px;
     font-size: 15px;
     width: fit-content;
   }
+  .lang-line{
+    margin-left: 3px;
+    margin-right: 3px;
+  }
   .paragraph-two{
     font-size: 15px;
     width: fit-content;
@@ -867,6 +879,10 @@ margin-left: 0px;
 @media (min-width: 765px) and (max-width: 1081px) {
   .nav__list{
     display: flex;
+  }
+  .lang-line{
+    margin-left: 3px;
+    margin-right: 3px;
   }
   .paragraph-two{
     font-size: 15px;
